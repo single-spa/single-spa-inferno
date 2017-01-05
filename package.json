@@ -1,7 +1,7 @@
 {
   "name": "single-spa-inferno",
   "version": "1.0.0",
-  "description": "A single spa plugin for Inferno apps",
+  "description": "A single-spa plugin for Inferno apps",
   "main": "lib/single-spa-inferno.js",
   "scripts": {
     "prepublish": "npm run build",
