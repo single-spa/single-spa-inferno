@@ -54,7 +54,7 @@ function mount(opts) {
 
 function unmount(opts) {
 	return new Promise((resolve, reject) => {
-		opts.InfernoDOM.render(null, getRootDomEl(opts)); // see https://github.com/infernojs/inferno/issues/114
+		opts.Inferno.render(null, getRootDomEl(opts)); // see https://github.com/infernojs/inferno/issues/114
 		resolve();
 	});
 }
