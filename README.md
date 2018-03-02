@@ -1,10 +1,10 @@
 # single-spa-inferno
 
-Generic lifecycle hooks for Inferno applications that are registered as [child applications](https://github.com/CanopyTax/single-spa/blob/master/docs/child-applications.md) of [single-spa](https://github.com/CanopyTax/single-spa).
+Generic lifecycle hooks for Inferno applications that are registered as [applications](https://github.com/CanopyTax/single-spa/blob/master/docs/applications.md) of [single-spa](https://github.com/CanopyTax/single-spa).
 
 ## Quickstart
 
-First, in the child application, run `npm install --save single-spa-inferno` (or `jspm install npm:single-spa-inferno` if your child application is managed by jspm). Then, in your [child app's entry file](https://github.com/CanopyTax/single-spa/blob/docs-1/docs/configuring-child-applications.md#the-entry-file), do the following:
+First, in the application, run `npm install --save single-spa-inferno`. Then, add the following to your application's entry file.
 
 ```js
 import Inferno from 'inferno';
